@@ -30,7 +30,7 @@ function App() {
             <ion-icon size="large" name="menu-sharp" style={{color: active === "/shikasletter" ? "black" : "white"}}></ion-icon>
           </div>
 
-          <div className={`${toggle ? "visible" : "hidden"} absolute md:hidden right-3 top-14 h-[120px] p-2 py-5 flex flex-col items-center justify-evenly  uppercase text-[10px] w-[120px] border-2 border-white border-solid ${active === "/gallery" ? "bg-black text-white" : active === "/shikasletter" ? "bg-white text-black" : "bg-[#1e2d42] text-white"} bg-[#1e2d42]`}>
+          <div className={`${toggle ? "visible" : "hidden"} shadow-lg absolute md:hidden right-3 top-14 h-[120px] p-2 py-5 flex flex-col items-center justify-evenly  uppercase text-[10px] w-[120px] border-2 border-white border-solid ${active === "/gallery" ? "bg-black text-white" : active === "/shikasletter" ? "bg-white text-black" : "bg-[#1e2d42] text-white"} bg-[#1e2d42]`}>
             <span className={`${active === "/" ? "font-bold" : "font-thin"} hover:opacity-50 active:opacity-25 cursor-pointer select-none`}><Link to="/">home</Link></span>
             <span className={`${active === "/shikasletter" ? "font-bold" : "font-thin"} hover:opacity-50 active:opacity-25 cursor-pointer select-none`}><Link to="shikasletter">shika's letter</Link></span>
             <span className={`${active === "/gallery" ? "font-bold" : "font-thin"} hover:opacity-50 active:opacity-25 cursor-pointer select-none`}><Link to="gallery">gallery</Link></span>
