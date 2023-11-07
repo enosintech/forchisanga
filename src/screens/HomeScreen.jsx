@@ -37,7 +37,7 @@ function HomeScreen() {
   const secC = useRef(null);
 
   const fetchWishData = async () => {
-    const response = await fetch("http://localhost:3000/api/wish")
+    const response = await fetch("https://forchisanga-api.onrender.com/api/wish")
     
     const data = await response.json()
 
@@ -60,7 +60,7 @@ function HomeScreen() {
     event.preventDefault();
     setLoading(true);
     setTrackWish(!trackWish)
-    const response = await fetch("http://localhost:3000/api/wish/new", {
+    const response = await fetch("https://forchisanga-api.onrender.com/api/wish/new", {
       method: "POST",
       headers: {
         "Content-type" : "application/json",
