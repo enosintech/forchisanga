@@ -10,7 +10,7 @@ const WishesComponent = (props) => {
       <div className='w-full h-[80%] p-3 flex items-center justify-center uppercase font-thin text-[12px] text-justify text-white overflow-scroll no-scrollbar'>
         {props.wish}
       </div>
-      <div className='w-full h-[20%] flex items-center justify-center uppercase font-semibold font-opensans text-white text-[13px] border-t-[0.25px] no-scrollbar'>
+      <div className='w-full h-[20%] flex items-center justify-center uppercase text-center font-semibold font-opensans text-white text-[13px] border-t-[0.25px] no-scrollbar'>
         from {props.name}
       </div>
     </div>
