@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Lottie from "lottie-react";
 
 import birthday from "../assets/animations/birthday.json";
+import loader from "../assets/animations/loader.json";
 import chisanga from "../assets/images/chisanga.png";
 
 const WishesComponent = (props) => {
