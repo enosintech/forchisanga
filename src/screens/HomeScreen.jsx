@@ -232,8 +232,12 @@ function HomeScreen() {
                 />
               ))
             :
-            <div className='w-full h-full flex items-start justify-center font-opensans font-bold text-[15px]'>
-              No Wishes Available
+            <div className='w-full h-full flex flex-col items-center justify-center'>
+              <Lottie 
+              className='h-[30%] w-full'
+              animationData={loader}
+              />
+              <span className="font-semibold font-opensans text-gray-500">Fetching...</span>
             </div>
             }
             </div>
