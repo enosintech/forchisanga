@@ -238,7 +238,7 @@ function HomeScreen() {
               className='h-[30%] w-full'
               animationData={loader}
               />
-              <span className="font-semibold font-opensans text-gray-500">Fetching...</span>
+              <span className="font-semibold font-opensans text-gray-500">Fetching Wishes...</span>
             </div>
             }
             </div>
